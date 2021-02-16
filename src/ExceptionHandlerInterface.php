@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace OpxCore\ExceptionsHandler\Interfaces;
+namespace OpxCore\ExceptionHandler\Interfaces;
 
-interface ExceptionsHandlerInterface
+interface ExceptionHandlerInterface
 {
 
 }

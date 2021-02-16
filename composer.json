@@ -1,5 +1,5 @@
 {
-  "name": "opxcore/exceptions-handler-interface",
+  "name": "opxcore/exception-handler-interface",
   "description": "The OpxCore exceptions handler interface.",
   "homepage": "https://opxcore.com",
   "type": "library",
@@ -11,8 +11,8 @@
   ],
   "license": "MIT",
   "support": {
-    "source": "https://github.com/opxcore/exceptions-handler-interface",
-    "issues": "https://github.com/opxcore/exceptions-handler-interface/issues"
+    "source": "https://github.com/opxcore/exception-handler-interface",
+    "issues": "https://github.com/opxcore/exception-handler-interface/issues"
   },
   "authors": [
     {
@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "OpxCore\\ExceptionsHandler\\Interfaces\\": "src/"
+      "OpxCore\\ExceptionHandler\\Interfaces\\": "src/"
     }
   },
   "prefer-stable": true,
