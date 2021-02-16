@@ -12,5 +12,10 @@ namespace OpxCore\ExceptionHandler\Interfaces;
 
 interface ExceptionHandlerInterface
 {
-
+    /**
+     * Register exceptions and error handlers
+     *
+     * @return  void
+     */
+    public function register(): void;
 }
