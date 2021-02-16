@@ -1,0 +1,33 @@
+{
+  "name": "opxcore/exceptions-handler-interface",
+  "description": "The OpxCore exceptions handler interface.",
+  "homepage": "https://opxcore.com",
+  "type": "library",
+  "keywords": [
+    "opxcore",
+    "exceptions",
+    "handler",
+    "interface"
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/opxcore/exceptions-handler-interface",
+    "issues": "https://github.com/opxcore/exceptions-handler-interface/issues"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\ExceptionsHandler\\Interfaces\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
